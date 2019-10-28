@@ -1,5 +1,5 @@
 ---
-title: "Lecture 3: Business Intelligence Interfaces 2"
+title: 'Lecture 3: Business Intelligence Interfaces 2'
 created: '2019-08-18T07:59:37Z'
 modified: '2019-10-24T06:43:42Z'
 tags: [Notebooks/Computer Science Degree, Lectures]
@@ -11,215 +11,217 @@ tags: [Notebooks/Computer Science Degree, Lectures]
 
 1. Key theories and principles of BI UI design
 2. Design effective tables, charts and dashboards.
- 
+
 ## How do users "see" and "think" about BI UI?
 
 ### BI System Model of Communication
 
-![Analyst Biases 
-User Biases 
-Data 
-Source 
-Data 
-Noise 
-Charts & 
-Tables 
-Created by 
-Data 
-Charts & 
-Tables 
-Interpreted 
-by User 
-Data 
-System 
-user 
-Data 
-(Based on Frees and Miller 1998; Kirk 2012) ](@attachment/aea79c57-8618-4c8a-860f-11e232f7798e.png)### Consequences for BI UI design
+![Analyst Biases](@attachment/aea79c57-8618-4c8a-860f-11e232f7798e.png)
 
-* For an intuitive, easy to understand visualisation of data
+### Consequences for BI UI design
 
-    * Use features 'seen' during pre-attentive processing: shapes, curves, etc. to communicate the message of the display.
-    * Use white-space to group, sort data to easily identify outliers.
-    * Avoid 'wasted' use of these features - 3D effects, irrelevant colours.
+- For an intuitive, easy to understand visualisation of data
+
+  - Use features 'seen' during pre-attentive processing: shapes, curves, etc. to
+    communicate the message of the display.
+  - Use white-space to group, sort data to easily identify outliers.
+  - Avoid 'wasted' use of these features - 3D effects, irrelevant colours.
 
 ### Tufte's Data-Ink Ratio
 
-> "A large share of ink on a graphic should present data-information, the ink changing as the data change. Data-ink is the non-erasable core of a graphic, the non-redundant ink arranged in response to variation in the numbers represented.
+> "A large share of ink on a graphic should present data-information, the ink
+> changing as the data change. Data-ink is the non-erasable core of a graphic,
+> the non-redundant ink arranged in response to variation in the numbers
+> represented.
 
-> "Maximise the data-ink ratio, within reason. Every bit of ink on a graphic requires a reason. And nearly always that reason should be that the ink presents new information." (Tufte 1983, p96)
+> "Maximise the data-ink ratio, within reason. Every bit of ink on a graphic
+> requires a reason. And nearly always that reason should be that the ink
+> presents new information." (Tufte 1983, p96)
 
-* Data-Ink Ratio = (Ink used to display data)/(total ink to print chart).
-* Reduce the non-data ink
+- Data-Ink Ratio = (Ink used to display data)/(total ink to print chart).
+- Reduce the non-data ink
 
-    * Remove unnecessary non-data ink
-    * De-emphasis and regularise remaining non-data ink
+  - Remove unnecessary non-data ink
+  - De-emphasis and regularise remaining non-data ink
 
-* Enhance the data ink
+- Enhance the data ink
 
-    * Subtract unnecessary data ink
-    * Emphasise the most important data ink
+  - Subtract unnecessary data ink
+  - Emphasise the most important data ink
 
 ### Cognitive Fit Theory (Vessey 1991)
 
-* Relationship between
+- Relationship between
 
-    * The decision task,
-    * Information presentation, and
-    * Task performance
+  - The decision task,
+  - Information presentation, and
+  - Task performance
 
-* Two classes of decision task & matching information representations
+- Two classes of decision task & matching information representations
 
-    * Spatial/"imagistic" -> Charts/Graphs (e.g. trends)
-    * Symbolic/"analytic" -> Tables (e.g. specific values)
+  - Spatial/"imagistic" -> Charts/Graphs (e.g. trends)
+  - Symbolic/"analytic" -> Tables (e.g. specific values)
 
-* Task performance (i.e. accuracy, speed, etc.) increases significantly when class of task matches type of information representation
-* Ensure you understand the decision taskbeforeyou choose between using a chart or a table.
- 
+- Task performance (i.e. accuracy, speed, etc.) increases significantly when
+  class of task matches type of information representation
+- Ensure you understand the decision taskbeforeyou choose between using a chart
+  or a table.
+
 ## How todesigneffective UI?
 
 ### How to:Design Good Tables
 
-* Ehrenberg's "Rudiments of Numeracy"
-* Presentation depends upon
+- Ehrenberg's "Rudiments of Numeracy"
+- Presentation depends upon
 
-    * Thedata
+  - Thedata
 
-        * Simple or complex
-        * New or repetitive
-        * Reliable or uncertain
+    - Simple or complex
+    - New or repetitive
+    - Reliable or uncertain
 
-    * Thepurpose
+  - Thepurpose
 
-        * Analysis
-        * To tell a story
-        * For the record
-
+    - Analysis
+    - To tell a story
+    - For the record
 
 #### Ehrenberg's Rule 1
 
-* Round to two significant or effective digits
-* Use this selectively. Some users like exact values.
+- Round to two significant or effective digits
+- Use this selectively. Some users like exact values.
+
 #### Ehrenberg's Rule 2
 
-* Use row and column averages to provide a visual focus.
+- Use row and column averages to provide a visual focus.
+
 #### Ehrenberg's Rule 3
 
-* Figures are easier to compare in columns.
+- Figures are easier to compare in columns.
+
 #### Ehrenberg's Rule 4
 
-* Ordering rows and columns by size
-* Choose the column to sort on based on user needs
+- Ordering rows and columns by size
+- Choose the column to sort on based on user needs
+
 #### Ehrenberg's Rule 5
 
-* Spacing and layout
+- Spacing and layout
 
-    * Figures which are meant to be compared should be placed close together, and gaps used to guide the eye across a table.
+  - Figures which are meant to be compared should be placed close together, and
+    gaps used to guide the eye across a table.
 
 #### Ehrenberg's Rule 6
 
-![Quantitative — Analysis 
-Qualitative — Indicative 
-Unemployed in GB—Rounded 
-Total unemployed 
-Females 
-1966 
-330 
-260 
-71 
-550 
-460 
-89 
-•70 
-50 
-87 
-600 
-99 ](@attachment/052838a1-b3ea-448d-b613-f3def31c3d8c.png)### How to:Design Good Charts
+![Quantitative — Analysis
+Qualitative — Indicative
+Unemployed in GB—Rounded
+Total unemployed
+Females
+1966
+330
+260
+71
+550
+460
+89
+•70
+50
+87
+600
+99 ](@attachment/052838a1-b3ea-448d-b613-f3def31c3d8c.png)###
+How to:Design Good Charts
 
-* Avoid chart junk (i.e. increase data-ink ratio)
-* Use small multiples to highlight comparisons and assess changes.
-* Use complex graphs to portray complex patterns
-* Relate graph size to information content
-* Use graphical forms that promote comparisons.
-* Integrate graphs and text.
-* Demonstrate an important message.
-* Allows access to different levels of detail via drill-down or drill-through.
- 
+- Avoid chart junk (i.e. increase data-ink ratio)
+- Use small multiples to highlight comparisons and assess changes.
+- Use complex graphs to portray complex patterns
+- Relate graph size to information content
+- Use graphical forms that promote comparisons.
+- Integrate graphs and text.
+- Demonstrate an important message.
+- Allows access to different levels of detail via drill-down or drill-through.
+
 #### Colour Chart Guidelines
 
-* Be consistent
-* Use harmonious colours for balance
-* Use contrasting colours to highlight
-* Colours should enlighten, not dazzle.
-* Use colour to emphasize, to prioritize
-* Use colour to make new points, e.g. fresh data
-* Note personal preferences - option to change?
-* Consider colour blindness when choosing colours
+- Be consistent
+- Use harmonious colours for balance
+- Use contrasting colours to highlight
+- Colours should enlighten, not dazzle.
+- Use colour to emphasize, to prioritize
+- Use colour to make new points, e.g. fresh data
+- Note personal preferences - option to change?
+- Consider colour blindness when choosing colours
 
-    * ≈10%of males are red-green colour blind.
+  - ≈10%of males are red-green colour blind.
 
-* Dark tones come forward, light tones recede.
+- Dark tones come forward, light tones recede.
+
 #### Choosing the correct chart
 
-* Match style of chart to the user's decision task
-* Avoid 3D version of charts
-* If your not sure refer to chart selection guides.
+- Match style of chart to the user's decision task
+- Avoid 3D version of charts
+- If your not sure refer to chart selection guides.
+
 #### Pie Charts
 
-* Widely used (and abused) in business and media
-* Human visual perception is not good at comparing areas and angles
-* Interpretation of a pie chart changes with position of segments and "clock position" of the chart.
-* It is best to avoid them if possible
+- Widely used (and abused) in business and media
+- Human visual perception is not good at comparing areas and angles
+- Interpretation of a pie chart changes with position of segments and "clock
+  position" of the chart.
+- It is best to avoid them if possible
+
 #### Sparklines
 
-* A sparkline is a small intense, simple, word-sized graphic with typographic resolution.
-* Originally invented by Edward Tufte in 2004
-* Patented (controversially) by Microsoft in 2009
+- A sparkline is a small intense, simple, word-sized graphic with typographic
+  resolution.
+- Originally invented by Edward Tufte in 2004
+- Patented (controversially) by Microsoft in 2009
 
-    * Now a standard feature in Excel
+  - Now a standard feature in Excel
 
-* Everywhere a word or number can be used.
- 
+- Everywhere a word or number can be used.
+
 ### The purpose of adashboard
 
-* Toquicklypresent data thatinformsthe user of the current status of something.
-* Avoid:
+- Toquicklypresent data thatinformsthe user of the current status of something.
+- Avoid:
 
-    * In-depth analysis
-    * Long historical comparisons
-    * Navigation (tabs)
-    * Non-critical information
+  - In-depth analysis
+  - Long historical comparisons
+  - Navigation (tabs)
+  - Non-critical information
 
-* Ensure:
+- Ensure:
 
-    * Visualisations are quick and easy to read
-    * Visualisations work together to communicate effectively
-    * Users' attention is drawn tourgentproblems.
+  - Visualisations are quick and easy to read
+  - Visualisations work together to communicate effectively
+  - Users' attention is drawn tourgentproblems.
 
 #### Dashboards - Design and Development
 
-* Who is the audience?
-* What is the purpose of the dashboard?
-* What type of dashboard am I creating?
+- Who is the audience?
+- What is the purpose of the dashboard?
+- What type of dashboard am I creating?
+
 #### Dashboards - Things to Consider
 
-* Form -Form follows function
-* Structure -How will you layout the objects?
-* Design Principles -What will guide your design?
-* Functionality -What can the user do?
- 
+- Form -Form follows function
+- Structure -How will you layout the objects?
+- Design Principles -What will guide your design?
+- Functionality -What can the user do?
+
 ## Summary
 
-* Theories and principles that support good BI interface design
+- Theories and principles that support good BI interface design
 
-    * The general communication model - reduce biases
-    * Visual image processing - reduce cognitive effort
-    * Data-ink ratio - reduce unnecessary content
-    * Cognitive fit theory - match visualisation to the task
+  - The general communication model - reduce biases
+  - Visual image processing - reduce cognitive effort
+  - Data-ink ratio - reduce unnecessary content
+  - Cognitive fit theory - match visualisation to the task
 
-* Guidelines for table, chart, and dashboard design
+- Guidelines for table, chart, and dashboard design
 
-    * Ehernberg's rules for table layout and structure
-    * Choose the correct chart, consider colour, simplify!
-    * Avoid pie charts when possible. Use bar charts.
-    * Dashboards: consider audience, purpose and type.
-
+  - Ehernberg's rules for table layout and structure
+  - Choose the correct chart, consider colour, simplify!
+  - Avoid pie charts when possible. Use bar charts.
+  - Dashboards: consider audience, purpose and type.
