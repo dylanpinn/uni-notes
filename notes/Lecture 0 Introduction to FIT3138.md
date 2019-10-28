@@ -1,8 +1,8 @@
 ---
-title: "Lecture 0: Introduction to FIT3138"
+tags: [FIT3138, Lectures, Notebooks/Computer Science Degree]
+title: 'Lecture 0: Introduction to FIT3138'
 created: '2019-08-26T10:28:14.972Z'
-modified: '2019-08-26T10:33:38Z'
-tags: [Notebooks/Computer Science Degree, Lectures]
+modified: '2019-10-28T04:59:21.348Z'
 ---
 
 # Lecture 0: Introduction to FIT3138

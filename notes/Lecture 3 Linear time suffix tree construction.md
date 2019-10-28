@@ -1,8 +1,8 @@
 ---
-title: "Lecture 3: Linear time suffix tree construction"
-created: '2019-08-20T10:24:27Z'
-modified: '2019-10-28T04:41:24Z'
-tags: [Notebooks/Computer Science Degree, Lectures]
+tags: [FIT3155, Lectures, Notebooks/Computer Science Degree]
+title: 'Lecture 3: Linear time suffix tree construction'
+created: '2019-08-20T10:24:27.000Z'
+modified: '2019-10-28T05:04:07.846Z'
 ---
 
 # Lecture 3: Linear time suffix tree construction
@@ -17,24 +17,20 @@ Linear-time suffix tree construction
 
 The substring (matching) problem
 
-Given a reference texttxt[1…n], preprocesstxtsuch that any given patternpat[1…m]can be searched in linear time proportional to the length of the pattern,Om.
+Given a reference text `txt[1...n]`, preprocess `txt` such that any given pattern `pat[1...m]` can be searched in linear time proportional to the length of the pattern, $O(m)$.
 
 * Suffix trees (and similarly suffix arrays) permit solving the above (and many other related) problems. They are very versatile.
 * Suffix trees unravel the composition of any string, and permit efficient access to them.
  
 ## String definitions
 
-Given 
-
-
-* Aprefixofstr1…nis asubstringstr1…j,∀1≤j≤n.
-* Asuffixofstr[1…n]is asubstringstri…n,∀1≤i≤n.
-* Asubstringofstr[1…n]is anystrj…i,∀1≤j≤i≤n.
+Given
+* A `prefix` of `str[1..n]` is a **substring** `str[1..j]`, $∀1≤j≤n$.
+* A `suffix` of `str[1..n]` is a **substring** `str[i..n]`, $∀1≤i≤n$.
+* A `substring` of `str[1..n]` is any `str[j..i]`, $∀1≤j≤i≤n$.
 * Therefore,
-
-    * A substring is aprefix of a suffix
-    * (or equivalently) a substring is asuffix of a prefix
-
+    * A substring is a **prefix of a suffix**
+    * (or equivalently) a substring is a **suffix of a prefix**
  
 ## Efficient Suffix Tree Construction usingUkkonen'salgorithm
 

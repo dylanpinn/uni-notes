@@ -1,8 +1,8 @@
 ---
-title: "Lecture 1 & 2: Linear-time string pattern matching"
-created: '2019-08-19T08:35:56Z'
-modified: '2019-10-05T04:36:53Z'
-tags: [Notebooks/Computer Science Degree, Lectures]
+tags: [FIT3155, Lectures, Notebooks/Computer Science Degree]
+title: 'Lecture 1 & 2: Linear-time string pattern matching'
+created: '2019-08-19T08:35:56.000Z'
+modified: '2019-10-28T04:58:50.905Z'
 ---
 
 # Lecture 1 & 2: Linear-time string pattern matching
